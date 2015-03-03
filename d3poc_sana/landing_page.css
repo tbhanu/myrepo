@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a
+{
+	text-decoration:none;
+	color:black;
+}
+body
+{
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+header
+{
+	padding:4%;
+	background-color:black;
+	width:100%;
+	position:relative;
+}
+.main-header
+{
+	background-color:#F2F0F1;
+	width:80%;
+	padding:2%;
+	position:absolute;
+	border-top-left-radius:70px;
+	border-bottom-left-radius:70px;
+	
+}
+.black-title
+{
+	font-size:25px;
+	display:inline-block;
+	font-weight:100;
+	left:2%;
+	position:absolute;
+}
+.coloured-title
+{
+	color:#3EB5DF;
+	font-size:35px;
+	top:48%;
+	position:absolute;
+	left:12%;
+}
+.desc
+{
+
+margin-left:35%;
+margin-right:35%;
+margin-top:1%;
+position:absolute;
+display:inline-block;
+}
+.profile-pic
+{
+	background:url("img_slices/LandingPage/profile_icon.png") no-repeat center;
+	background-size:100%;
+	border-radius:50px;
+	padding:2% 2%;
+	float:right;
+	margin-right:1%;
+	display:inline-block;
+}
+.welcome-note
+{
+	float:right;
+	display:inline-block;
+	font-size:12px;
+	margin-right:3%;
+}
+.user-name
+{
+	position:absolute;
+	top:50%;
+	margin-left:88%;
+	font-size:13px;
+}
+.mid-container
+{
+	background-color:grey;
+	padding:25%;
+}
+.fa-chevron-circle-down
+{
+background-color:white;
+
+}
+
+
+
+
+
+
